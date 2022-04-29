@@ -67,7 +67,7 @@ class Statedata extends Component{
                                                           <td>{itm.recovered}</td>
                                                           <td>{itm.deceased}</td>
                                                       </tr>
-                                                  )
+                                                  );
                                               }) 
                                            }
                                        </tbody>

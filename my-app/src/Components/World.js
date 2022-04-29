@@ -7,7 +7,7 @@ class World extends Component{
             super();
             this.state ={
                 data : []
-            }
+            };
         }
 
         componentDidMount(){
