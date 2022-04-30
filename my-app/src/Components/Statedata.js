@@ -11,7 +11,7 @@ class Statedata extends Component{
 
     componentDidMount(){
         axios.get("https://data.covid19india.org/state_district_wise.json").then(response=>{
-            response.data
+            
             this.setState({stateData:response.data});
         });
     }
